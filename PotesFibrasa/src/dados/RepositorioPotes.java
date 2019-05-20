@@ -71,6 +71,7 @@ public class RepositorioPotes {
 
 	public void lerArquivo() throws FileNotFoundException, URISyntaxException {
 
+		System.out.println("");
 		Pote pote;
 		String coluna[] = null;
 		String linhasDoArquivo = null;
